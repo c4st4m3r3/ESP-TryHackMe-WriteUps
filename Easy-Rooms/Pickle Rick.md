@@ -12,7 +12,7 @@ En esta room de nivel principiante nos presentan una máquina con temática de R
 
 ## PASO 1. ENUMERACIÓN:
 Comenzamos arrancando la máquina. Démosle al menos 5 minutos para que pueda arrancar correctamente.\
-Lo primero que haremos, como en la mayoría de casos será utilizar nmap para realizar un escaneo de los puertos que se encuentran abiertos así como de los servicios que se encuentran disponibles en la misma:
+Lo primero que haremos, como en la mayoría de casos, será utilizar nmap para realizar un escaneo de los puertos que se encuentran abiertos así como de los servicios que se encuentran disponibles en los mismos:
 
 ```
 nmap -sV -p- IP.DE.NUESTRA.MÁQUINA -vvv
