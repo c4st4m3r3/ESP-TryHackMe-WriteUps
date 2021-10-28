@@ -15,7 +15,7 @@ Comenzamos arrancando la máquina. Démosle al menos 5 minutos para que pueda ar
 Lo primero que haremos, como en la mayoría de casos, será utilizar nmap para realizar un escaneo de los puertos que se encuentran abiertos así como de los servicios que se encuentran disponibles en los mismos:
 
 ```
-nmap -sV -p- IP.DE.NUESTRA.MÁQUINA -vvv
+nmap -sV -p- IP.DE.LA.MÁQUINA -vvv
 ```
 Sintaxis del comando:
 - nmap: Utilizamos la herramienta de análisis nmap.
@@ -26,4 +26,4 @@ Sintaxis del comando:
 Una vez terminado el escaneo podemos observar que existen 2 puertos abiertos con los siguientes servicios:
 - Puerto 22: Servicio ssh.
 - Puerto 80: Servicio http.
-Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con nuestro navegador en la dirección http:IP.DE.VUESTRA.MAQUINA:80
+Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con nuestro navegador en la dirección http://IP.DE.LA.MÁQUINA
