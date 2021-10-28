@@ -17,6 +17,7 @@ Lo primero que haremos, como en la mayoría de casos, será utilizar nmap para r
 ```
 nmap -sV -p- IP.DE.LA.MÁQUINA -vvv
 ```
+
 Sintaxis del comando:
 - nmap: Utilizamos la herramienta de análisis nmap.
 - -sV: Indicamos que queremos hacer un escaneo de tipo "Service Detection". Lo que hará será analizar los servicios que se encuentran funcionando en los puertos que encuentre abiertos.
@@ -35,4 +36,16 @@ Nos encontraremos con la siguiente web:
 No parece que esto nos de mucha información util la verdad. Vamos a ver si encontramos algo en el código fuente de la web. Podemos observar lo siguiente entre las líneas 28 y 34:\
 ![PickleRick_2](https://user-images.githubusercontent.com/93337563/139299301-d298f990-f009-4086-9e3b-e5b5953032ca.png)
 
-De momento tenemos un nombre de usuario. ¿Tal vez podemos usarlo en el servicio SSH que hemos enumerado previamente? No obstante, antes de eso, podemos probar a visitar el archivo robots.txt de la web (¡¡siempre es buena idea darnos un paseo por el archivo robots.txt. Muchas veces encontramos cosas útiles!!).
+De momento tenemos un nombre de usuario. ¿Tal vez podemos usarlo en el servicio SSH que hemos enumerado previamente? No obstante, antes de eso, podemos probar a visitar el archivo robots.txt de la web (¡¡siempre es buena idea darnos un paseo por el archivo robots.txt. Muchas veces encontramos cosas útiles!!). Podemos acceder al mismo desde http://IP.DE.LA.MÁQUINA/robots.txt
+
+Parece que lo único que contiene es la famosa frase de Rick: Wubbalubbadubdub. ¿Podría ser la contraseña para el usuario que hemos encontrado antes?
+
+El siguiente paso lógico sería empezar probar este usuario y esta "posible" contraseña en el ssh...
+
+## PASO 2. PROBANDO EL SSH:
+Vamos, como hemos dicho antes, a intentar conectarnos al servicio ssh con el usuario y esa "posible contraseña que habíamos encontrado. Para ello ejecutamos el siguiente comando:
+
+```
+ssh R1ckRul3s@IP.DE.LA.MÁQUINA
+```
+
