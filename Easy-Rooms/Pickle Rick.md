@@ -31,3 +31,5 @@ Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con 
 
 Nos encontraremos con la siguiente web:
 ![PickleRick_1](https://user-images.githubusercontent.com/93337563/139298610-5c5bbe21-720e-4dc2-ad1d-93bb31146523.png)
+
+No parece que esto nos de mucha información util la verdad. Vamos a ver si encontramos algo en el código fuente de la web:
