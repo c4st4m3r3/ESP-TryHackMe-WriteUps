@@ -4,6 +4,6 @@ Vamos a trabajar en ellos paso por paso así que ¡que nadie se preocupe!
 
 ```
 
-ESTE WRITEUP ESTÁ EN PROCESO DE REDACCIÓN
+ESTE WRITEUP ESTÁ EN PROCESO DE REDACCIÓN. ¡VUELVE PRONTO PARA PODER LEERLO!
 
 ```
