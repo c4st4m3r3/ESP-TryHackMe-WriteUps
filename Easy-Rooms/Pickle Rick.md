@@ -27,3 +27,4 @@ Una vez terminado el escaneo podemos observar que existen 2 puertos abiertos con
 - Puerto 22: Servicio ssh.
 - Puerto 80: Servicio http.
 Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con nuestro navegador en la dirección http://IP.DE.LA.MÁQUINA
+![PickleRick_1](https://user-images.githubusercontent.com/93337563/139298610-5c5bbe21-720e-4dc2-ad1d-93bb31146523.png)
