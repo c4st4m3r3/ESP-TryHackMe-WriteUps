@@ -40,7 +40,7 @@ De momento tenemos un nombre de usuario. ¿Tal vez podemos usarlo en el servicio
 
 Parece que lo único que contiene es la famosa frase de Rick: Wubbalubbadubdub. ¿Podría ser la contraseña para el usuario que hemos encontrado antes?
 
-Vamos a seguir enumerando;pero ahora la web. Para ello utilizaremos gobuster. El comando que emplearemos será el siguiente:
+Vamos a seguir enumerando; pero ahora la web. Para ello utilizaremos gobuster. El comando que emplearemos será el siguiente:
 
 ```
 gobuster -d -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u IP.DE.LA.MÁQUINA
