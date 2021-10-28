@@ -19,10 +19,10 @@ nmap -sV -p- IP.DE.LA.MÁQUINA -vvv
 ```
 
 Sintaxis del comando:
-- nmap: Utilizamos la herramienta de análisis nmap.
-- -sV: Indicamos que queremos hacer un escaneo de tipo "Service Detection". Lo que hará será analizar los servicios que se encuentran funcionando en los puertos que encuentre abiertos.
-- -p-: Indicamos que queremos analizar todos los puertos del equipo en cuestión.
-- -vvv: Queremos que nmap nos de toda la información posible así que con este comando aumentamos la verbosidad del escaneo al máximo.
+· nmap: Utilizamos la herramienta de análisis nmap.
+· -sV: Indicamos que queremos hacer un escaneo de tipo "Service Detection". Lo que hará será analizar los servicios que se encuentran funcionando en los puertos que encuentre abiertos.
+· -p-: Indicamos que queremos analizar todos los puertos del equipo en cuestión.
+· -vvv: Queremos que nmap nos de toda la información posible así que con este comando aumentamos la verbosidad del escaneo al máximo.
 
 Una vez terminado el escaneo podemos observar que existen 2 puertos abiertos con los siguientes servicios:
 - Puerto 22: Servicio ssh.
@@ -45,3 +45,9 @@ Vamos a seguir enumerando;pero ahora la web. Para ello utilizaremos gobuster. El
 ```
 gobuster -d -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u IP.DE.LA.MÁQUINA
 ```
+
+Sintaxis del comando:
+· gobuster: Utilizamos la herramienta de análisis gobuster.
+· -d: Indicamos que queremos hacer un análisis de los directorios.
+· -w: Indicamos el path de la wordlist que queremos usar para comparar. En mi caso he utilizado "Directory Lists 2.3" en su formato medio. Si estáis trabajando desde       Kali Linux la tendréis instalada por defecto. En la AttackBox de THM también se encuentra disponible
+· -u: Dirección IP del servidor web que vamos a analizar. En este caso la dirección ip de nuestra máquina. ¡No os olvidéis del http antes de la IP!!
