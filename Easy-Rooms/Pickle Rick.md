@@ -15,5 +15,10 @@ Comenzamos arrancando la máquina. Dejemosle al menos 5 minutos para que pueda a
 Lo primero que haremos, como en la mayoría de casos será utilizar nmap para realizar un escaneo de los puertos que se encuentran abiertos así como de los servicios que se encuentran disponibles en la misma:
 
 ```
-nmap -sV -p- IP.DE.NUESTRA.MÁQUINA
+nmap -sV -p- IP.DE.NUESTRA.MÁQUINA -vvv
 ```
+Sintaxis del comando:
+- nmap: Utilizamos la herramienta de análisis nmap
+- -sV: Indicamos que queremos hacer un escaneo de tipo
+- -p-: Indicamos que queremos analizar todos los puertos del equipo en cuestión
+- -vvv: Queremos que nmap nos de toda la información posible así que con este comando aumentamos la verbosidad del escaneo al máximo.
