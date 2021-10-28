@@ -3,6 +3,6 @@ En este repositorio voy a ir subiendo mis direntes Writeups para las rooms de Tr
 
 Espero que disfrutéis tanto leyéndolos como yo haciéndolos para vosotros.
 
-Podéis visitar mi perfil de TryHackMe en https://www.tryhackme.com/p/castamere
+Podéis visitar mi perfil de TryHackMe en https://tryhackme.com/p/Castamere
 
 ¡Sentiros libres de agregarme a amigos y así podemos hackear juntos!
