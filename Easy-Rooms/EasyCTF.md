@@ -4,6 +4,6 @@ Vamos a trabajar en ellos paso por paso así que ¡que nadie se preocupe!
 
 ```
 
-Esto es una prueba a ver si funciona
+ESTE WRITEUP ESTÁ EN PROCESO DE REDACCIÓN
 
 ```
