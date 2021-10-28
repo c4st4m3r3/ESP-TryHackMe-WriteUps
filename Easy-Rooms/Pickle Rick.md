@@ -40,12 +40,8 @@ De momento tenemos un nombre de usuario. ¿Tal vez podemos usarlo en el servicio
 
 Parece que lo único que contiene es la famosa frase de Rick: Wubbalubbadubdub. ¿Podría ser la contraseña para el usuario que hemos encontrado antes?
 
-El siguiente paso lógico sería empezar probar este usuario y esta "posible" contraseña en el ssh...
-
-## PASO 2. PROBANDO EL SSH:
-Vamos, como hemos dicho antes, a intentar conectarnos al servicio ssh con el usuario y esa "posible contraseña que habíamos encontrado. Para ello ejecutamos el siguiente comando:
+Vamos a seguir enumerando;pero ahora la web. Para ello utilizaremos gobuster. El comando que emplearemos será el siguiente:
 
 ```
-ssh R1ckRul3s@IP.DE.LA.MÁQUINA
+gobuster -d -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u IP.DE.LA.MÁQUINA
 ```
-
