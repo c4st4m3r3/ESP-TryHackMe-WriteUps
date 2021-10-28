@@ -21,4 +21,9 @@ Sintaxis del comando:
 - nmap: Utilizamos la herramienta de análisis nmap.
 - -sV: Indicamos que queremos hacer un escaneo de tipo "Service Detection". Lo que hará será analizar los servicios que se encuentran funcionando en los puertos que encuentre abiertos.
 - -p-: Indicamos que queremos analizar todos los puertos del equipo en cuestión.
-- -vvv: Queremos que nmap nos de toda la información posible así que con este comando aumentamos la verbosidad del escaneo al máximo.
+- -vvv: Queremos que nmap nos de toda la información posible así que con este comando aumentamos la verbosidad del escaneo al máximo.\
+
+Una vez terminado el escaneo podemos observar que existen 2 puertos abiertos con los siguientes servicios:
+- Puerto 22: Servicio ssh.
+- Puerto 80: Servicio http.
+Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con nuestro navegador en la dirección http:IP.DE.VUESTRA.MAQUINA:80
