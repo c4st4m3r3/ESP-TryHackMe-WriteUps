@@ -26,6 +26,7 @@ Sintaxis del comando:
 Una vez terminado el escaneo podemos observar que existen 2 puertos abiertos con los siguientes servicios:
 - Puerto 22: Servicio ssh.
 - Puerto 80: Servicio http.\
+
 Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con nuestro navegador en la dirección http://IP.DE.LA.MÁQUINA
 
 Nos encontraremos con la siguiente web:
