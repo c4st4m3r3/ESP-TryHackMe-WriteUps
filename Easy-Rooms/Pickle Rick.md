@@ -50,4 +50,4 @@ Sintaxis del comando:
 - gobuster: Utilizamos la herramienta de análisis gobuster.
 - -d: Indicamos que queremos hacer un análisis de los directorios.
 - -w: Indicamos el path de la wordlist que queremos usar para comparar. En mi caso he utilizado "Directory Lists 2.3" en su formato medio. Si estáis trabajando desde       Kali Linux la tendréis instalada por defecto. En la AttackBox de THM también se encuentra disponible.
-- -u: Dirección IP del servidor web que vamos a analizar. En este caso la dirección ip de nuestra máquina. ¡No os olvidéis del http antes de la IP!!
+- -u: Dirección IP del servidor web que vamos a analizar. En este caso la dirección ip de nuestra máquina. ¡No os olvidéis del http antes de la IP!
