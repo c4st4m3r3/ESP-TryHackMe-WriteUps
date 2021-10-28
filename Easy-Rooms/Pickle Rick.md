@@ -33,7 +33,8 @@ Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con 
 Nos encontraremos con la siguiente web:
 ![PickleRick_1](https://user-images.githubusercontent.com/93337563/139298610-5c5bbe21-720e-4dc2-ad1d-93bb31146523.png)
 
-No parece que esto nos de mucha información util la verdad. Vamos a ver si encontramos algo en el código fuente de la web. Podemos observar lo siguiente entre las líneas 28 y 34:\
+No parece que esto nos de mucha información util la verdad. Vamos a ver si encontramos algo en el código fuente de la web. Podemos observar lo siguiente entre las líneas 28 y 34:
+
 ![PickleRick_2](https://user-images.githubusercontent.com/93337563/139299301-d298f990-f009-4086-9e3b-e5b5953032ca.png)
 
 De momento tenemos un nombre de usuario. ¿Tal vez podemos usarlo en el servicio SSH que hemos enumerado previamente? No obstante, antes de eso, podemos probar a visitar el archivo robots.txt de la web (¡¡siempre es buena idea darnos un paseo por el archivo robots.txt. Muchas veces encontramos cosas útiles!!). Podemos acceder al mismo desde http://IP.DE.LA.MÁQUINA/robots.txt
