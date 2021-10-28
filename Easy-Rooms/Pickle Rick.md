@@ -1,1 +1,1 @@
-Writeup para la room PicleRick de THM. ¡Completamente en español!
+Writeup para la room PickleRick de THM. ¡Completamente en español!
