@@ -31,6 +31,7 @@ Una vez terminado el escaneo podemos observar que existen 2 puertos abiertos con
 Por lo tanto, tenemos un servidor web funcionando. Vamos a acceder al mismo con nuestro navegador en la dirección http://IP.DE.LA.MÁQUINA
 
 Nos encontraremos con la siguiente web:
+
 ![PickleRick_1](https://user-images.githubusercontent.com/93337563/139298610-5c5bbe21-720e-4dc2-ad1d-93bb31146523.png)
 
 No parece que esto nos de mucha información util la verdad. Vamos a ver si encontramos algo en el código fuente de la web. Podemos observar lo siguiente entre las líneas 28 y 34:
